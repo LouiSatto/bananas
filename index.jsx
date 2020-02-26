@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {AppRegistry, StyleSheet, Text, View} from 'react-native';
+import Bananas from './pic.jsx';
 
 type Props = {};
 export default class MyApp extends Component<Props> {
@@ -7,11 +8,12 @@ export default class MyApp extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Hello World !!!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.js
         </Text>
+        <Bananas />
       </View>
     );
   }
